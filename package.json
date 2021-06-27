@@ -1,0 +1,35 @@
+{
+  "name": "invert-text",
+  "version": "0.1.0",
+  "description": "A simple tool to generate inverted/upside-down/australiaized/upended/upturned text",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "lint": "eslint src test",
+    "test": "jest test --config test/jest.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sid2u/invert-text.git"
+  },
+  "keywords": [
+    "inverted",
+    "text",
+    "upended",
+    "upturned",
+    "upside-down"
+  ],
+  "author": "Siddartha Adusumalli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sid2u/invert-text/issues"
+  },
+  "homepage": "https://github.com/sid2u/invert-text#readme",
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "jest": "^27.0.5"
+  },
+  "dependencies": {
+    "commander": "^8.0.0"
+  }
+}
