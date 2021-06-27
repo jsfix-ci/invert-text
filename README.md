@@ -3,8 +3,6 @@
 A simple tool to generate inverted/upside-down/australiaized/upended/upturned text.
 Generates inverted text using Unicode characters.
 
-ℹ️ &nbsp; NOTE: Works mainly with __AlphaNumeric__ characters. All other characters are returned as-is.
-
 ### Examples
 | Original | Inverted |
 |----------|----------|
@@ -28,3 +26,7 @@ sᴉɥʇ
 ʇɐɥʇ
 ǝsʅǝ ƃuᴉɥʇǝɯos puɐ
 ```
+
+### ℹ️ &nbsp;Notes
+  * Works mainly with __AlphaNumeric__ characters. All other characters are returned as-is.
+  * Depending on the __font__ used, some of the inverted characters can look odd/incorrect when inverted.
