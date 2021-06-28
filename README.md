@@ -26,7 +26,7 @@ A better mechanism for testing Localization (L10N) compared to translations of a
 ### Usage
 #### Invert a JSON file
 To invert all leaf-level text phrases in a given JSON file, use the `invert-text` command as below:
-```shell-session
+```console
 foo@bar:~$ invert-text -i path/to/input.json -o path/to/output.json
 
 ✅ Generated the inverted output file at "path/to/output.json"
@@ -34,7 +34,7 @@ foo@bar:~$ invert-text -i path/to/input.json -o path/to/output.json
 
 #### Invert phrase(s)
 To invert single/multiple text phrases, use the `invert-text` command as below:
-```shell-session
+```console
 foo@bar:~$ invert-text -p this that "and something else"
 
 sᴉɥʇ
