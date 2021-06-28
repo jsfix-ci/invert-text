@@ -1,6 +1,6 @@
 {
   "name": "invert-text",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A simple tool to generate inverted/upside-down/australiaized/upended/upturned text",
   "main": "index.js",
   "bin": "index.js",
@@ -17,7 +17,9 @@
     "text",
     "upended",
     "upturned",
-    "upside-down"
+    "upside-down",
+    "localization",
+    "l10n"
   ],
   "author": "Siddartha Adusumalli",
   "license": "MIT",
@@ -27,6 +29,8 @@
   "homepage": "https://github.com/sid2u/invert-text#readme",
   "devDependencies": {
     "eslint": "^7.29.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
     "jest": "^27.0.5"
   },
   "dependencies": {

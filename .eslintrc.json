@@ -4,7 +4,7 @@
     "es6": true,
     "node": true
   },
-  "extends": "eslint:recommended",
+  "extends": ["eslint:recommended", "airbnb", "prettier"],
   "globals": {
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly"
@@ -13,6 +13,8 @@
     "ecmaVersion": 2018
   },
   "rules": {
+    "no-console": "off",
+    "no-restricted-syntax": "off",
     "prefer-const": "error"
   },
   "overrides": [

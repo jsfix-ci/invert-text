@@ -1,0 +1,14 @@
+{
+  "a": [false, 120],
+  "b": {
+    "c": ["the", "quick", "brown"],
+    "d": {
+      "e": ["fox", "jumps"],
+      "f": "over"
+    }
+  },
+  "g": [
+    ["the", "lazy"],
+    { "h": "dog" }
+  ]
+}
